@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/sli_setup_name_ed"
+            android:hint="@string/name_tv" android:inputType="text"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:targetApi="jelly_bean">
+
+        <EditText
+                android:id="@+id/sli_setup_amount_ed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                tools:targetApi="jelly_bean"
+                android:hint="@string/sli_setup_amount_et" android:inputType="number"/>
+        <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:id="@+id/sli_setup_unit_spinner"
+                android:layout_weight="1"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_save"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="@string/save_sho_list"
+            android:fontFamily="sans-serif-smallcaps"
+            tools:targetApi="jelly_bean" />
+
+    <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_delete"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="@string/delete_sho_list"
+            android:fontFamily="sans-serif-smallcaps"
+            tools:targetApi="jelly_bean"
+            android:visibility="gone"/>
+
+</LinearLayout>

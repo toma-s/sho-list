@@ -1,0 +1,30 @@
+<resources>
+    <string-array name="units">
+        <item>kg</item>
+        <item>g</item>
+        <item>l</item>
+        <item>ml</item>
+        <item>pc(s)</item>
+        <item>package(s)</item>
+        <item>m</item>
+    </string-array>
+    <string name="app_name">ShoList</string>
+    <string name="action_settings">Settings</string>
+    <string name="thumbnail">thumbnail</string>
+    <string name="sho_list_name">Sho List Name</string>
+    <string name="sho_list_description">Sho List Description</string>
+    <string name="save_sho_list">Save Sho List</string>
+    <string name="delete_sho_list">Delete Sho List</string>
+    <string name="action_delete">Delete All</string>
+    <string name="sli_unit_amount_tv">%1$s %2$s</string>
+    <string name="name_tv">Name</string>
+    <string name="sli_unit_tv">Unit</string>
+    <string name="sli_image_iv">Image</string>
+    <string name="sli_setup_amount_et">Amount</string>
+    <string name="sli_setup_name_tv">Pick the item</string>
+    <string name="sli_setup_unit_tv">Unit</string>
+    <string name="mli_type_tv">List type</string>
+    <string name="mli_decr_tv">%1$s: %2$s</string>
+    <string name="mli_no_decr_tv">%1$s</string>
+    <string name="load_sample">Load sample data</string>
+</resources>
